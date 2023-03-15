@@ -1,3 +1,7 @@
 api : api é um software que permite a comunicação entre dois ou mais computadores. O protocolo de comunicação é o http, que é o mesmo utilizado para acessar páginas da internet. ele nao tem parte grafica. 
 
 eu consigo acessar atraves do navegador apenas a rota get, que é a que retorna os dados. as outras rotas, como post, put e delete, eu consigo acessar apenas atraves de um software que faz a comunicação com a api.
+
+middlewares : os middlewares sao instruções que são executadas antes de chegar na rota. por exemplo, se eu quiser que todas as rotas tenham um token de autenticação, eu posso criar um middleware que verifica se o token existe e se é valido. se o token nao existir ou nao for valido, o middleware retorna uma mensagem de erro. se o token for valido, o middleware permite que a rota seja executada.
+
+ou seja, antes de eu executar a api que vai solicitar a rota eu executo o middleware que verifica se o token é valido. se for valido, eu executo a api que solicita a rota. se nao for valido, eu retorno uma mensagem de erro.
