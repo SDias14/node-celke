@@ -1,0 +1,3 @@
+api : api é um software que permite a comunicação entre dois ou mais computadores. O protocolo de comunicação é o http, que é o mesmo utilizado para acessar páginas da internet. ele nao tem parte grafica. 
+
+eu consigo acessar atraves do navegador apenas a rota get, que é a que retorna os dados. as outras rotas, como post, put e delete, eu consigo acessar apenas atraves de um software que faz a comunicação com a api.

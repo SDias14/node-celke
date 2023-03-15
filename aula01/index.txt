@@ -1,0 +1,1 @@
+node é uma plataforma de programação que utiliza o javascript no lado do servidor. 
